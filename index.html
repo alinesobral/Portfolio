@@ -1,75 +1,69 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
-		<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+		<link href="http://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="style.css">	
+		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-		<title>Aline's Portfolio</title>	
+		<title>Aline's Portfolio</title>
 	</head>
-
 	<body>
-		<div class="wrapper">
+		<div class="container">
 			<div class="row header">
 				<!--Logo (when clicked, it takes the user to the home page)-->
 				<div class="col-md-1 logo">
 					<a href="#"><img src="http://i.imgur.com/D7h4WMV.png" alt="Aline's logo"/></a>
 				</div>
-			
 				<!--Title of the page (when clicked, it takes the user to the home page)-->
 				<div class="title col-md-11">
-					<p class="main-header">ALINE ALENCAR</p>
-					<p class="sub-header">Front-End Web Developer</p>
+					<h3 class="main-header">ALINE ALENCAR</h3>
+					<h3 class="sub-header">Front-End Web Developer</h3>
 				</div>
 			</div>
 			<!--Menu-->
-			</br>
-			<div class="menu">
-				<ul class="nav nav-pills font-menu">
-		  			<li role="presentation" class="active"><a href="#">HOME</a></li>
-		  			<li role="presentation"><a href="#">ABOUT ME</a></li>
-		  			<li role="presentation"><a href="#">LET'S TALK</a></li>
+			<br>
+			<div class="menu row">
+				<ul class="nav nav-pills font-menu col-md-4 col-md-offset-9">
+					<li role="presentation" class= "active"><a href="#">HOME</a></li>
+					<li role="presentation" class= ""><a href="#">WORK</a></li>
+					<li role="presentation" class= ""><a href="#">LET'S TALK</a></li>
 				</ul>
 			</div>
-			</br>
-			</br>
-			</br>
+			<br>
 			<div class="border">
 			</div>
-			</br>
+			<br>
 			<!--Main feature (when clicked, it takes the user to the page shown)-->
-			<div class="img-responsive main-featured">
+			<div class="img-responsive">
 				<a class= "hover" href="#">
-					<img src="http://i.imgur.com/DSKOQyu.jpg" alt="streetcar in toronto"/>
-					<h1><span>COLLEGE & SPADINA</span></h1>
+					<img class = "main-featured-img" src="http://i.imgur.com/2L41DN5.jpg" alt="streetcar in toronto"/>
 				</a>
+				<div class="main-description">COLLEGE & SPADINA</div>
 			</div>
-		</div> <!--wrapper-->
-		<div class="featured">
 			<div class="row">
+				<div class="text-featured"><p>Featured work:</p></div>
 				<!--Featured work (when clicked, it takes the user to the page shown)-->
 				<a href="#">
 					<div class="img-responsive col-md-4 thumbnail hover">
-						<img src="http://i.imgur.com/6vX49g6.jpg" alt="downtown buildings"/>
+						<img class = "thumbnail-img" src="http://i.imgur.com/6vX49g6.jpg" alt="downtown buildings"/>
 						<h2><span>DOWNTOWN</span></h2>
 					</div>
 				</a>
 				<a href="#">
 					<div class="img-responsive col-md-4 thumbnail hover">
-						<img src="http://i.imgur.com/s5K7G7g.jpg" alt="sakuras in high park"/>
+						<img class = "thumbnail-img" src="http://i.imgur.com/s5K7G7g.jpg" alt="sakuras in high park"/>
 						<h2><span>HIGH PARK</span></h2>
 					</div>
 				</a>
 				<a href="#">
 					<div class="img-responsive col-md-4 thumbnail hover">
-						<img src="http://i.imgur.com/gEGXkL5.jpg" alt="high park from above"/>
+						<img class = "thumbnail-img"  src="http://i.imgur.com/gEGXkL5.jpg" alt="high park from above"/>
 						<h2><span>BLOOR WEST</span></h2>
 					</div>
 				</a>
 			</div>
-		</div> <!--featured-->
+		</div> <!--container-->
 	</body>
 </html>
