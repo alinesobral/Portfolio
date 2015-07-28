@@ -47,14 +47,14 @@
 }
 
 /*Descriptions*/
-p { 
+h2 { 
 	position: absolute; 
 	top: 120px; 
 	left: 50px; 
 	width: 100%; 
 }
 
-p span { 
+h2 span { 
 	color: white; 
 	font: 24px "Lora", serif; 
 	letter-spacing: -1px;  
@@ -94,6 +94,12 @@ p span {
 	padding-bottom: 10px;
 }
 
+p {
+	color: #000; 
+	font: 18px "Lora", serif;
+	text-align: center;
+}
+
 /*Media queries*/
 @media screen and (max-width: 1199px) {
 	.main-description {
@@ -123,7 +129,7 @@ p span {
 		margin-bottom: 8%;
 	}
 	
-	p span {
+	h2 span {
 		margin: 0% 0% 0% 30.4%;
 		font-size: 18px;
 	}
@@ -150,6 +156,10 @@ p span {
 	}
 	.menu {
 		padding-left: 35%;
+	}
+
+	p {
+		font-size: 12px;
 	}
 }
 
